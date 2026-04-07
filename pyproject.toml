@@ -1,13 +1,15 @@
 [project]
 name = "turkish-utils"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple set of Turkish processing utilities"
 readme = "README.md"
-authors = [
-    { name = "seckinu", email = "seckinerenuzun@gmail.com" }
-]
+authors = [{ name = "seckinu", email = "seckinerenuzun@gmail.com" }]
 requires-python = ">=3.14"
 dependencies = []
+license = "MIT"
+
+[project.urls]
+source = "https://github.com/seckinu/turkish-utils"
 
 [build-system]
 requires = ["uv_build>=0.9.26,<0.10.0"]
